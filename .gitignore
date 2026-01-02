@@ -1,3 +1,7 @@
+#Spring boot target folder
+target/
+.settings/
+
 # Logs
 logs
 *.log
