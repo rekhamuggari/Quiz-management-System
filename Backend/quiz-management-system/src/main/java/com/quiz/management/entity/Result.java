@@ -27,4 +27,38 @@ public class Result {
 	@ManyToOne
 	@JoinColumn(name = "quiz_id")
 	private Quiz quiz;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	public String getUserAnswers() {
+		return userAnswers;
+	}
+
+	public void setUserAnswers(String userAnswers) {
+		this.userAnswers = userAnswers;
+	}
+
+	public Quiz getQuiz() {
+		return quiz;
+	}
+
+	public void setQuiz(Quiz quiz) {
+		this.quiz = quiz;
+	}
+	
+	
 }
